@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
+
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+    font-size: 12px;
+    line-height: 1.3rem;
+}
+
+header {
+    background-image: url(./images/mobile-image-hero-1.jpg);         
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    display: flex;
+    padding: 1rem 2rem;
+
+}
+
+ul, a{
+    list-style-type: none;
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+}
+
+.button:hover .dropdown{
+    display: block;
+}
+
+header h1{
+margin-left: 6.5rem;
+}
+
+.discover{
+    padding: 3rem 2rem;
+}
+
+.shop{
+    display: flex;
+    letter-spacing: 0.5rem;
+    margin-top: 2rem;
+    
+}
+
+.arrow{
+    margin-left: 2rem;
+}
+
+.furniture{
+    padding:3rem 2rem ;
+}
+
+.furniture h2{
+    text-transform: uppercase;
+}
+
+@media (min-width:768px){
+    .flex{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    header{
+        background-image: url(./images/desktop-image-hero-1.jpg);
+        flex-basis: 200%;
+        height: 24rem;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .last{
+        display: flex;
+    }
+}
+
+
+
+
+
+    
+    
